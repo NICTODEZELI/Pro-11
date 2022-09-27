@@ -12,7 +12,7 @@ function setup(){
  createCanvas(400,400);
 
 // Movendo o fundo 
-path.createSprite(200,200);
+path = createSprite(200,200);
 path.addImage(pathImg);
 path.velocityY = 4;
 path.scale=1.2;
